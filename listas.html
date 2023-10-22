@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/Harvard_University_logo.svg.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="header">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="listas" class="py-3">
+                    <h2 class="header border-round">LISTAS</h2>
+                    <h2 class="text-subr">Tipos de listas</h2>
+                    <h3>Listas desordenadas</h3>
+                    <ul class=" text-under">
+                        <li>Uno</li>
+                        <li>Dos</li>
+                        <li>Tres</li>
+                        <li>Cuatro</li>
+                    </ul>
+                    <h3>Listas ordenadas</h3>
+                    <ol>
+                        <li>Primero</li>
+                        <li>Segundo</li>
+                        <li>Tercero</li>
+                        <li>Cuarto</li>
+                    </ol>
+                    <h3>Listas desordenadas de varios niveles</h3>
+                    <ul>
+                        <li>Seccion 1
+                            <ul>
+                                <li>Cardio</li>
+                                <li>Pesas</li>
+                                <li>Footing</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Seccion 2</li>
+                        <li>Seccion 3</li>
+                        <li>Seccion 4</li>
+                        <li>Seccion 5</li>
+                        <li>Seccion 6</li>
+                    </ul>
+                    <ul>
+                        <li>Seccion 7</li>
+                        <li>Seccion 8</li>
+                    </ul>
+                    <h3>Listas ordenadas de varios niveles</h3>
+                    <ol>
+                        <li>Cardio
+                            <ol>
+                                <li>Footing</li>
+                                <li>Yogging</li>
+                                <li>Pacing</li>
+                            </ol>
+                        </li>
+                        <li>Powerlift
+                            <ol>
+                                <li>Pesas</li>
+                                <li>Kettlebell</li>
+                            </ol>
+                        </li>
+                        <li>Yoga
+                            <ol>
+                                <li>La grulla borracha</li>
+                            </ol>
+                        </li>
+                        <li>Kung Fu
+                            <ol>
+                                <li>Karate</li>
+                                <li>Judo</li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <h3>Listas ordenadas de varios niveles customizada</h3>
+                    <div id="listaoc">
+                        <ol>
+                            <li>Hola
+                                <ol>
+                                    <li>Adios</li>
+                                    <li>Hasta luego</li>
+                                    <li>Sayonara</li>
+                                </ol>
+                            </li>
+                            <li>Xao
+                                <ol>
+                                    <li>Pescao</li>
+                                    <li>Merluzo</li>
+                                </ol>
+                            </li>
+                            <li>Muslo
+                                <ol>
+                                    <li>O Pechuga</li>
+                                </ol>
+                            </li>
+                            <li>Escribir
+                                <ol>
+                                    <li>Leer</li>
+                                    <li>Waka Waka</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                    <h3>Listas ordenadas de tres niveles customizada</h3>
+                    <div id="listaotc">
+                        <ol>
+                            <li>Primero
+                                <ol>
+                                    <li>Segundo</li>
+                                    <li>Tercero</li>
+                                    <li>Cuarto</li>
+                                </ol>
+                            </li>
+                            <li>Ahum
+                                <ol>
+                                    <li>Taka Taka
+                                        <ol>
+                                            <li>Nano</li>
+                                            <li>Hamilton</li>
+                                        </ol>
+                                    </li>
+                                    <li>Coche</li>
+                                </ol>
+                            </li>
+                            <li>Moto
+                                <ol>
+                                    <li>Tesla</li>
+                                </ol>
+                            </li>
+                            <li>Mercedes
+                                <ol>
+                                    <li>Benz
+                                        <ol>
+                                            <li>BMW</li>
+                                            <li>Lexus</li>
+                                        </ol>
+                                    </li>
+                                    <li>Ferrari</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                    <h3>Listas desordenadas de tres niveles customizada</h3>
+                    <div id="listadtc">
+                        <ul>
+                            <li>Primero
+                                <ul>
+                                    <li>Segundo</li>
+                                    <li>Tercero</li>
+                                    <li>Cuarto</li>
+                                </ul>
+                            </li>
+                            <li>Quinto
+                                <ul>
+                                    <li>Sexto
+                                        <ul>
+                                            <li>Septimo</li>
+                                            <li>Octavo</li>
+                                        </ul>
+                                    </li>
+                                    <li>Me aburro</li>
+                                </ul>
+                            </li>
+                            <li>De cambiar
+                                <ul>
+                                    <li>Tanta lista</li>
+                                </ul>
+                            </li>
+                            <li>Ya no se
+                                <ul>
+                                    <li>Que mas
+                                        <ul>
+                                            <li>Inventarme</li>
+                                            <li>Hombre ya</li>
+                                        </ul>
+                                    </li>
+                                    <li>Por favor</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>Listas de definición o descripción</h3>
+                    <dl>
+                        <dt> <span class="bg-black"> Bienestar de precisión</span></dt>
+                        <dd>Mediante IA personalizamos los objetivos, los planes de alimentación y
+                            fitness, para que
+                            sean adaptativas según estado de cada empleado y aplicamos retos divertidos e inclusivos que
+                            generan el engagement y un cambio en las personas, divirtiéndose mientras lo hacen.</dd>
+                        <dt><span class="bg-black">Big Data</span></dt>
+                        <dd>Analizamos Big Data y lo transformamos en insights agrupados y anónimos para el negocio,
+                            midiendo todo lo que se implementa. Además esta data anónimo y globalizado puede ser usado
+                            por la empresa se beneficia de empleados sanos con seguros de vida y salud más económicos.
+                        </dd>
+                        <dt> <span class="bg-black">Wereables</span></dt>
+                        <dd>Wearable corporativo. Dispositivo de salud con funciones avanzadas con posibilidad de personalizar a la imagen del cliente.</dd>
+                    </dl>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="header">&copy; Alvaro Alonso Garcia</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
